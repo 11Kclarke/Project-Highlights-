@@ -27,10 +27,8 @@ Validated [this meteorological study](https://agupubs.onlinelibrary.wiley.com/do
 
 ## Generative Art
 
-Generative are was one of the first things that got me interested in programming and maths. I sadly haven't had much time to work on any of it for a while, but you can find an infinite-depth GPU-accelerated fractal zoomer on my GitHub. As it uses OpenCL, it should be runnable even with an AMD GPU without much fuss. It also allows for defining your own customer fractal seed equations instead of just the normal mandlebrott X^2+c. The zoomer isn't limited to escape-type fractals and extends the use of customer seeds equations to Julia Set, like fractals and more. There's also code for plotting images resulting from the distance of jumps during attractor iteration, which produces images that I so far haven't seen anything similar to. It's Niche and useless enough, it might even be unique.
-Example Attractor ArtZoom of Inner Structure of bulbs
-	
-The most impressive component is probably the mapper from Sympy to OpenCL syntax complete for any complex function writeable in exponential form, Ie pretty much everything. This allows for GPU-based iterations of custom functions. In retrospect, I'm surprised this works given my experience level when writing it.
+Generative are was one of the first things that got me interested in programming and maths. I sadly haven't had much time to work on any of it for a while, but you can find an infinite-depth GPU-accelerated fractal zoomer on my GitHub. As it uses OpenCL, it should be runnable even with an AMD GPU without much fuss. It also allows for defining your own customer fractal seed equations instead of just the normal mandlebrott X^2+c. The zoomer isn't limited to escape-type fractals and extends the use of customer seeds equations to Julia Set, like fractals and more. There's also code for plotting images resulting from the distance of jumps during attractor iteration, which produces images that I so far haven't seen anything similar to. It's obscure and useless enough, it might even be unique.
+
 Example Attractor Art      |  Zoom of Inner Structure of bulbs 
 :-------------------------:|:-------------------------:
 ![Example Attractor Art](https://github.com/11Kclarke/Project-Highlights-/blob/main/unknown.png) |  ![Inner Structure of Bulbs](https://github.com/11Kclarke/Project-Highlights-/blob/main/hoppalong-range-xy-are-x0y0-80-80%20zoomed%20spiral.png)
